@@ -102,6 +102,19 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
+/*------About teacher ----*/
+
+.card-hover {
+    cursor: pointer;
+    transition: .5s;
+}
+.card-hover:hover {
+    transform: translateY(-6px);
+}
+
+
+
+
 /*-----For small Screens----*/
 
 nav .fa-solid {
@@ -162,4 +175,5 @@ nav .fa-solid {
         text-align: center;
         font-size: 30px;
     }
+    
 }
