@@ -41,6 +41,12 @@
     width: 244px;
     height: 204px;
     background-color: #41493B;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.rectangle:hover {
+    background-color: #262626;
 }
 
 .border-top {
@@ -158,8 +164,11 @@ nav .fa-solid {
         color: #fff;
     }
     nav ul li {
-        display: block;
+        
         margin-right: 20px;
+    }
+    nav ul li a {
+        color: #fff;
     }
     nav ul .fa-solid {
         position: absolute;
